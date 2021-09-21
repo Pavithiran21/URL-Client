@@ -1,0 +1,45 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    
+    background: #2d4ec3;
+    color: white;
+    font-family: Helvetica;
+    font-weight: 300;
+}
+body{
+    background: none !important;
+}
+.h-screen {
+  height: 100vh !important;
+}
+.navbar__title {
+    margin-right: auto;
+    font-size: 116%;
+    padding: 6px 16px;
+}
+
+.navbar__item {
+    padding: 6px 16px;
+    cursor: pointer;
+    vertical-align: middle;
+}
+/* make sidebar nav vertical */ 
+@media (min-width: 768px) {
+    .sidebar-nav .navbar .navbar-collapse {
+      padding: 0;
+      max-height: none;
+    }
+    .sidebar-nav .navbar ul {
+      float: none;
+      display: block;
+    }
+    .sidebar-nav .navbar li {
+      float: none;
+      display: block;
+    }
+    .sidebar-nav .navbar li a {
+      padding-top: 12px;
+      padding-bottom: 12px;
+    }
+  }

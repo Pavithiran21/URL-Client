@@ -1,0 +1,41 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;&family=Ubuntu&display=swap');
+.font{
+    font-size: 20px;
+}
+.modal-backdrop {
+    z-index: -1;
+  }
+  .btn-color{
+      background-color: #fcedeb !important;
+      color: black !important;
+   
+  }
+body{
+    font-family: ubuntu,sans-serif;
+    font-weight: 400;
+    text-rendering: optimizeLegibility;
+}
+.jHRDwc {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    position: -webkit-sticky;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    z-index: 1;
+    color: #FFFFFF;
+    font-size: 14px !important;
+    font-weight: 500;
+}
+.rdt_TableHead{
+   font-size: 15px !important;
+   font-weight: 500 !important;
+   color:rgb(178 0 0 / 87%) !important
+}
+.rdt_TableRow{
+    font-size: 15px !important; 
+}
