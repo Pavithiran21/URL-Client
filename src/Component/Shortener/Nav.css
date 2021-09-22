@@ -23,7 +23,7 @@ body{
     padding: 6px 16px;
     cursor: pointer;
     vertical-align: middle;
-    color: white;
+    color: white !important;
 }
 /* make sidebar nav vertical */ 
 @media (min-width: 768px) {
