@@ -12,7 +12,7 @@ const DashboardLayout = ({children}) => (
         <div className='navbar__title navbar__item'>
         <i className="fa fa-link pr-2 " ></i> URL SHORTNER
         </div>
-        <div className='navbar__item'><div className="user"></div><span>Welcome {USER_DETAILS.firstname +' '+ USER_DETAILS.lastname}</span></div>        
+        <div className='navbar__item'><div className="user"></div><span style="background-color:#fff" >Welcome {USER_DETAILS.firstname +' '+ USER_DETAILS.lastname}</span></div>        
     </header>
     <BodyWrapper>
       <div className="flex h-screen bg-gray-200">
