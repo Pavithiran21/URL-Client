@@ -25,6 +25,10 @@ body{
     vertical-align: middle;
     
 }
+.navbar__item span {
+   color:white
+    
+}
 /* make sidebar nav vertical */ 
 @media (min-width: 768px) {
     .sidebar-nav .navbar .navbar-collapse {
